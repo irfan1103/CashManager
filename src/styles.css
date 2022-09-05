@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  color: slateblue;
+}
+
+button {
+  background: none;
+  background-color: slateblue;
+  border: 2px solid rgba(82, 79, 79, 0.582);
+  border-radius: 5px;
+  color: white;
+  font-size: larger;
+  padding: 0.2rem 1rem;
+  margin: 1rem;
+}
+
+input {
+  border: 2px solid slateblue;
+  border-radius: 5px;
+  font-size: larger;
+  padding: 0.2rem 1rem;
+  margin: 1rem;
+}
+
+#tables table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 50vw;
+}
+#tables th,
+#tables tr {
+  border: 2px solid slateblue;
+  padding: 0.5rem;
+}
